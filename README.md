@@ -7,7 +7,7 @@ Trova tutte le coppie di carte nel minor numero di mosse possibile!
 🔗 [Gioca ora](https://memory.simonebuccolieri.com)
 
 ## 📸 Screenshot
-![Memory Game Screenshot](https://github.com/simonebuccolieri/Memory/public/screenshot.png)
+![Memory Game Screenshot](https://github.com/SimoneBuccolieri/Memory/blob/master/public/screenshot.png)
 
 ## 📦 Installazione e Avvio
 
