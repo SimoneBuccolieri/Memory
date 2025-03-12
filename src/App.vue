@@ -127,8 +127,8 @@ export default {
 
 
 <template>
-  <div class="flex flex-col items-center container mx-auto py-8">
-    <div v-if="!partita && !vittoria" class="text-center space-y-4">
+  <div class="container h-screen flex flex-col items-center justify-center container mx-auto py-8 ">
+    <div v-if="!partita && !vittoria" class="text-center space-y-4 ">
       <h1 class="text-4xl font-bold uppercase">Memory Game</h1>
       <div class="flex items-center gap-2">
         <label class="text-lg font-semibold">Numero di Carte (max {{ numColori }}):</label>
@@ -161,15 +161,7 @@ export default {
 </template>
 
 <style scoped>
-.grid div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #fff;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-}
+
 .waiting {
   pointer-events: none;
 }
